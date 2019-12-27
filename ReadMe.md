@@ -7,4 +7,16 @@ This repository consists of gazebo models of objects and worlds related to RoboC
 Clone this repository into your catkin workspace.
 
 ```bash
-git clone 
+git clone https://github.com/Pranav24-8/gazebo-worlds.git
+```
+
+Build your workspace.
+
+Add this repository to ```GAZEBO_MODEL_PATH``` and ```GAZEBO_RESOURCE_PATH```.
+
+```bash
+export GAZEBO_MODEL_PATH=<path_to_this_repo>/models
+export GAZEBO_RESOURCE_PATH=<path_to_this_repo>
+```
+
+Now these models and worlds can be used in Gazebo.
